@@ -1,0 +1,73 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #c94b4b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4b134f,
+    #c94b4b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4b134f,
+    #c94b4b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.App {
+  display: flex;
+  margin-top: 10vh;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+  width: 60vw;
+  margin-left: 20vw;
+  border: black solid 1px;
+  background-color: #1a171a;
+  border-radius: 20px;
+  color: white;
+}
+
+button {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  background-color: rgb(89, 120, 255);
+  border-radius: 10px;
+  color: white;
+  outline-style: none;
+}
+
+button:hover {
+  background-color: rgb(74, 86, 253);
+  background-blend-mode: overlay;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+
+.animelist {
+  flex-grow: 1;
+  margin: 0.5rem;
+  min-height: 10vh;
+  padding: 0.7rem;
+  width: 30vw;
+  border: white solid 2px;
+  color: black;
+  border-radius: 5px;
+  background: #d66d75; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e29587,
+    #d66d75
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e29587,
+    #d66d75
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
