@@ -1,2 +1,3 @@
 # Good-Animes
-Created with CodeSandbox
+
+Website dedicated to my favorite animes
